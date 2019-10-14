@@ -2,5 +2,5 @@
 TO:	Siemens
 FROM:	Easyflap (UK)
 
-AMOUNT:	â‚¬19406.22
+AMOUNT:	€19406.22
 --------------------------------------
