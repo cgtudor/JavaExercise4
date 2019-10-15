@@ -9,6 +9,11 @@ package uk.ac.tees.standard.username;
  *
  * @author v8002382
  */
-public class EntertainmentUpgrade {
+public class EntertainmentUpgrade extends FlightUpgrade{
+    
+    public EntertainmentUpgrade(Flight f) {
+        super(f);
+        price = 9.5;
+    }
     
 }

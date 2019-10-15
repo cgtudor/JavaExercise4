@@ -10,5 +10,14 @@ package uk.ac.tees.standard.username;
  * @author v8002382
  */
 public abstract class Flight {
+    protected double price;
+
+    public double getCost() {
+        return price;
+    }
+
+    public void setCost(double price) {
+        this.price = price;
+    }
     
 }

@@ -12,4 +12,9 @@ package uk.ac.tees.standard.username;
  */
 public class FirstClassUpgrade extends FlightUpgrade{
     
+    public FirstClassUpgrade(Flight f) {
+        super(f);
+        price = 217;
+    }
+    
 }

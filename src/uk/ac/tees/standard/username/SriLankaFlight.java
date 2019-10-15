@@ -10,5 +10,8 @@ package uk.ac.tees.standard.username;
  * @author v8002382
  */
 public class SriLankaFlight extends Flight{
-    
+    public SriLankaFlight()
+    {
+        price = 254;
+    }
 }

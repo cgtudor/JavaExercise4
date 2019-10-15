@@ -9,6 +9,11 @@ package uk.ac.tees.standard.username;
  *
  * @author v8002382
  */
-public class WebCheckInUpgrade {
+public class WebCheckInUpgrade extends FlightUpgrade{
+    
+    public WebCheckInUpgrade(Flight f) {
+        super(f);
+        price = 27;
+    }
     
 }

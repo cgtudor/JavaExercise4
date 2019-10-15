@@ -9,6 +9,11 @@ package uk.ac.tees.standard.username;
  *
  * @author v8002382
  */
-public class PriorityUpgrade {
+public class PriorityUpgrade extends FlightUpgrade{
+    
+    public PriorityUpgrade(Flight f) {
+        super(f);
+        price = 19;
+    }
     
 }
