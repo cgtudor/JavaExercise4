@@ -16,7 +16,7 @@ public class JapaneseInvoice implements InvoicingAlgorithm{
         String lol = "--------------------------------------\n";
         lol += "TO:	" + cur + "\n";
         lol += "FROM:	Easyflap (UK)\n\n";
-        lol += "AMOUNT:	¥" + String.format("%.2f", amount*121) + "\n";
+        lol += "AMOUNT:	Â¥" + String.format("%.2f", amount*121) + "\n";
         lol += "--------------------------------------";
         return lol;
     }

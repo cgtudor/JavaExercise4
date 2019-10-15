@@ -16,7 +16,7 @@ public class EuropeanInvoice implements InvoicingAlgorithm{
         String lol = "--------------------------------------\n";
         lol += "TO:	" + cur + "\n";
         lol += "FROM:	Easyflap (UK)\n\n";
-        lol += "AMOUNT:	"+'\u20AC' + String.format("%.2f", amount*1.14) + "\n";
+        lol += "AMOUNT:	â‚¬" + String.format("%.2f", amount*1.14) + "\n";
         lol += "--------------------------------------";
         return lol;
     }

@@ -32,8 +32,8 @@ public class JapaneseInvoiceTest {
         //System.out.println(expectedOutput);
         actualOutput = actualOutput.replaceAll("\\s", "");
         expectedOutput = expectedOutput.replaceAll("\\s", "");
-        //System.out.println(actualOutput);
-        //System.out.println(expectedOutput);
+        System.out.println(actualOutput);
+        System.out.println(expectedOutput);
         assertEquals(actualOutput, expectedOutput);
     }
 
